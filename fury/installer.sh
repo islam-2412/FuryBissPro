@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Command: wget -q "--no-check-certificate" https://raw.githubusercontent.com/islam-2412/FuryBiss-pro/main/fury/installer.sh -O - | /bin/sh
+# Command: wget -q "--no-check-certificate" https://raw.githubusercontent.com/islam-2412/FuryBissPro/main/fury/installer.sh -O - | /bin/sh
 #
 echo "------------------------------------------------------------------------"
 echo "                     Installing FuryBiss                           "
@@ -59,7 +59,7 @@ sleep 1
 cd /tmp
 
 FILE_NAME="furybiss_${PY_VER}.ipk"
-DOWNLOAD_URL="https://raw.githubusercontent.com/islam-2412/FuryBiss-pro/main/fury/${FILE_NAME}"
+DOWNLOAD_URL="https://raw.githubusercontent.com/islam-2412/FuryBissPro/main/fury/${FILE_NAME}"
 
 echo "Downloading FuryBiss package for Python ${PY_VER}..."
 curl -s -k -L "${DOWNLOAD_URL}" -o /tmp/${FILE_NAME}
